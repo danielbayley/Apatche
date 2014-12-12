@@ -1,3 +1,19 @@
+#Apatche
+
+Based on [Apaxy](http://adamwhitcroft.com/apaxy) by Adam Whitcroft
+
+Credit must go to @AdamWhitcroft the original author of [Apaxy](http://github.com/AdamWhitcroft/Apaxy) which this is heavily based on. This fork aims to simplify the repository slightly and add a slightly different minimal theme, which utilises SVG in place of bitmap icons.
+
+##Install
+Simply clone this repository to your `~/Sites` folder and run the `install.sh` script.
+
+or instead, if you don't already have Apache configured, you can run the `setup_apache.command`. This will open a Terminal window and ask for the admin password before it will run. It also runs the install script
+
+
+Run `chflags hidden /Path/to/Apatche` from terminal if you prefer the Apatche folder not show in Finder.
+
+---
+
 #Apaxy
 
 Demo: [adamwhitcroft.com/apaxy](http://adamwhitcroft.com/apaxy/)
@@ -58,10 +74,10 @@ This URL path is relative to your site's root.
 
 The default Apaxy theme `/themes/apaxy` has icons in place for the following mime types:
 
-    .aif .aif .asf .asx .avi .bin .c .css .csv .dmg .doc .docm .docx .dot .dotm .eps .flv .gif 
-    .htm .html .ico .iff .jar .jpeg .jpg .js .json .log .m3u .m4a .md .mid .mov .mp3 .mp4 .mpa 
-    .mpg .msg .mwa .odt .pages .pdf .pkg .png .ps .psd .ra .rar .rb .rm .rss .rtf .shtml 
-    .sql .srt .swf .tex .tiff .txt .vob .wav .wmv .wpd .wps .xhtml .xlam .xlr .xls .xlsm .xlsx 
+    .aif .aif .asf .asx .avi .bin .c .css .csv .dmg .doc .docm .docx .dot .dotm .eps .flv .gif
+    .htm .html .ico .iff .jar .jpeg .jpg .js .json .log .m3u .m4a .md .mid .mov .mp3 .mp4 .mpa
+    .mpg .msg .mwa .odt .pages .pdf .pkg .png .ps .psd .ra .rar .rb .rm .rss .rtf .shtml
+    .sql .srt .swf .tex .tiff .txt .vob .wav .wmv .wpd .wps .xhtml .xlam .xlr .xls .xlsm .xlsx
     .xltm .xltx .xml .zip
 
 
